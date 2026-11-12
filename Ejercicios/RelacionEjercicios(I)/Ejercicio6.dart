@@ -1,3 +1,8 @@
+/*Ejercicio 6 de la Relacion 1
+Trabajo: Ejercicio.6.dart
+Fecha: 12/11/26
+*/
+
 import 'dart:io';
 
 void main() {

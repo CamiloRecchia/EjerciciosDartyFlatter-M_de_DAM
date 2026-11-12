@@ -1,3 +1,8 @@
+/*Ejercicio 2 de la Relacion 1
+Trabajo: Ejercicio.2.dart
+Fecha: 12/11/26
+*/
+
 void main() {
   // Numero Entero
   int entero = 1;

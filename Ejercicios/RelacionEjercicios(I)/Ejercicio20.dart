@@ -1,3 +1,8 @@
+/*Ejercicio 20 de la Relacion 1
+Trabajo: Ejercicio.20.dart
+Fecha: 12/11/26
+*/
+
 import 'dart:math';
 
 void main(List<String> args) {

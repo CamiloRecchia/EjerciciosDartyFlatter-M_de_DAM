@@ -1,3 +1,8 @@
+/*Ejercicio 17 de la Relacion 1
+Trabajo: Ejercicio.17.dart
+Fecha: 12/11/26
+*/
+
 enum Colores { rojo, naraja, amarillo, verde, azul, violeta, INDIGO }
 
 void main(List<String> args) {

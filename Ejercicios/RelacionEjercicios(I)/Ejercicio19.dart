@@ -1,3 +1,8 @@
+/*Ejercicio 19 de la Relacion 1
+Trabajo: Ejercicio.19.dart
+Fecha: 12/11/26
+*/
+
 void main(List<String> args) {
   // Crea un mapa de usuarios con sus edades.
   Map<String, int> mapa = {};

@@ -1,3 +1,8 @@
+/*Ejercicio 7 de la Relacion 1
+Trabajo: Ejercicio.7.dart
+Fecha: 12/11/26
+*/
+
 import 'dart:io';
 import 'dart:math';
 
