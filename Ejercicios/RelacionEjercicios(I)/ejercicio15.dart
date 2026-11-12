@@ -2,6 +2,7 @@
 import 'dart:math';
 
 main() {
+  // Cuenta cuantas veces aparece cada cara en 100 tiradas.
   final random = Random();
   print("Lanzando un dado: ");
 
@@ -38,6 +39,7 @@ main() {
     }
   }
 
+  // Calcula la frecuencia de cada cara sobre el total de tiradas.
   double mediaUno = uno / 100;
   double mediaDos = dos / 100;
   double mediaTres = tres / 100;

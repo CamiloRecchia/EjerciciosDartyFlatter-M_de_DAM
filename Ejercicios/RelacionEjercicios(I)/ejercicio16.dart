@@ -1,4 +1,7 @@
+import 'dart:io';
+
 void main(List<String> args) {
+  // Completa la lista de dias y muestra sus elementos.
   List<String> lista = ["lunes", "martes", "miercoles", "jueves", "viernes"];
 
   print(lista);
@@ -10,5 +13,19 @@ void main(List<String> args) {
     print(lista[i]);
   }
 
-  
+  // Guarda el nombre y la edad introducidos por consola.
+  Map<String, int> mapa = {};
+
+  for (var i = 1; i < 2; i++) {
+    print("Dime el nombre del usuario $i");
+    String nombre = (stdin.readLineSync()!);
+    print("Dime la edad del usuario $i");
+    String edad = (stdin.readLineSync()!);
+
+    mapa.addAll({nombre: int.parse(edad)});
+  }
+
+  mapa.forEach((key, value) {
+    print("El usuario $key tiene $value años");
+  });
 }

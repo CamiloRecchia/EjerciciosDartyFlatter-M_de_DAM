@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  // Se piden los dos numeros y la operacion.
   print("Primer numero: ");
   int numeroA = int.parse(stdin.readLineSync()!);
 
@@ -10,6 +11,7 @@ void main() {
   print("Operador(+,-,/,*): ");
   String operador = (stdin.readLineSync()!);
 
+  // Selecciona la operacion y guarda su resultado.
   num total;
 
   switch (operador) {
@@ -34,5 +36,6 @@ void main() {
       return;
   }
 
+  // Muestra el resultado de la operacion elegida.
   print("Segun el operador $operador el resultado es: $total");
 }

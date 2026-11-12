@@ -1,12 +1,14 @@
 import 'dart:io';
 
 void main() {
+  // Se leen los dos numeros para buscar su divisor comun.
   print("Inserte el primer numero: ");
   int a = int.parse(stdin.readLineSync()!);
 
   print("Inserte el segundo numero: ");
   int b = int.parse(stdin.readLineSync()!);
 
+  // Empieza por el menor y busca un divisor de ambos numeros.
   if (a > b) {
     if (a % b == 0) {
       print("$b es el MCD");
