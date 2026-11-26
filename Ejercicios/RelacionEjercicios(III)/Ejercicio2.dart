@@ -3,6 +3,7 @@ import 'dart:math';
 import 'common.dart';
 
 void main(List<String> args) {
+  // Genera el número secreto y lleva el control de los intentos.
   int randNum = Random().nextInt(99) + 1;
   bool guessed = false;
   int contador = 0;
@@ -15,8 +16,10 @@ void main(List<String> args) {
     contador++;
 
     if (num == randNum) {
+      // Marca que se encontró el número y termina el bucle.
       print("Felicidades Ganaste!!");
       print("Numero de intentos: $contador");
+      guessed = true;
     } else if (num > randNum) {
       print("El numero secreto es menor que $num");
     } else {
